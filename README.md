@@ -39,6 +39,20 @@ The resulting customer segments are analysed to identify different purchasing pa
 
 The project uses the **Online Retail dataset** from the **UCI Machine Learning Repository**.
 
+Due to GitHub file-size limitations, the raw dataset is not included in this repository.
+
+### Dataset Source
+
+[UCI Online Retail Dataset](https://archive.ics.uci.edu/dataset/352/online+retail)
+
+### Dataset Details
+
+- Original transactions: 541,909
+- Original columns: 8
+- Transaction period: December 2010 – December 2011
+- Final cleaned transactions: 392,692
+- Unique customers analysed: 4,338
+
 ### Dataset Summary
 
 | Property | Value |
@@ -82,16 +96,9 @@ The project uses the **Online Retail dataset** from the **UCI Machine Learning R
 ```text
 Customer_Segmentation_Project/
 │
-├── data/
-│   └── online_retail.csv
-│
-├── outputs/
-│   └── Generated analysis and visualization outputs
-│
 ├── customer_segmentation.ipynb
 ├── requirements.txt
 ├── README.md
-├── project_report_outline.md
 ├── Customer_Segmentation_Project_Report.docx
 └── Customer_Segmentation_Internship_Presentation.pptx
 ```
